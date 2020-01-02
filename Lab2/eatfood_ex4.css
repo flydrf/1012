@@ -1,0 +1,24 @@
+body { border: 5px solid white; background-image: url("images/background.gif");
+margin-left: 10%; margin-right: 10%; font-family: arial;
+}
+
+.purple { border-bottom: 2px dashed;}
+
+#orange { border: 5px white;}
+
+.red { border: 5px solid white; text-align: right;
+  background-color: rgb(168,213,255)
+}
+
+.blue { border: 5px solid rgb(168,213,255); background-color: rgb(196,226,255);
+margin-top: 10px; padding: 5px; overflow: hidden;
+}
+
+.yellow {border: 5px solid yellow;}
+
+.white {background-color: white}
+
+img.right{float: right; }
+
+#footer{text-align: center;
+        }

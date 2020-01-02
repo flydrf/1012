@@ -1,0 +1,19 @@
+body { border: 5px solid green; background-image: url("images/background.gif");
+margin-left: 10%; margin-right: 10%;
+}
+
+.purple { border: 5px solid purple;}
+
+#orange { border: 5px solid orange;}
+
+.red { border: 5px solid red; text-align: right}
+
+.blue { border: 5px solid blue; background-color: rgb(196,226,255);
+margin-top: 10px; padding: 5px; overflow: hidden;
+}
+
+.yellow {border: 5px solid yellow;}
+
+.white {background-color: white}
+
+img.right{float: right; }

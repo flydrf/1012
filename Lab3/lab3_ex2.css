@@ -1,0 +1,28 @@
+body {background-image: url("background.png");
+  font-family: sans-serif;
+}
+
+.all {width: 500px; margin: auto; background-color: #EEEEEE;
+  border: 5px solid #999999; padding: 5px;
+  overflow: auto;
+}
+
+#tshirt_pic {text-align: center;
+  Border: 3px solid black;
+}
+
+.mid {text-align: center;}
+
+.white {border: 1px solid black; background-color: white;}
+.red {border: 1px solid black; background-color: red;
+color: white;}
+.blue {border: 1px solid black; background-color: blue;
+color: white;}
+.green {border: 1px solid black; background-color: green;
+color: white;}
+
+#place_order {color: white; background-color: black; padding: 5px;}
+#restart {padding: 5px;}
+
+.left {float:left;}
+.right {float: right;}

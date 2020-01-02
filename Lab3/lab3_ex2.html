@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Nerd Shirt </title>
+    <link href="lab3_ex2.css" type="text/css" rel="stylesheet">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="all">
+    <form action="https://www.eecs.yorku.ca/~mbrown/EECS1012/buyShirt.php" method="get">
+    <fieldset>
+      <legend> Select Shirt </legend>
+      <p id="tshirt_pic"> <img src="tshirt.png" height="250" alt="tshirt picture"> </p>
+      <p class="mid">
+      <label> <input type="radio" name="color">
+        <span class= "white"> White </span> </label>
+      <label> <input type="radio" name="color">
+        <span class="red"> Red </span> </label>
+      <label> <input type="radio" name="color">
+        <span class="blue"> Blue </span> </label>
+      <label> <input type="radio" name="color">
+        <span class="green"> Green </span> </label>
+      </p>
+        <p class="mid"> Size <select name="size">
+          <option> Small </option>
+          <option> Medium </option>
+          <option> Large </option>
+          <option> X-Large </option>
+        </select>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend> Payment </Legend>
+          <p> <label> <input type="radio" name="cardType"> Visa </label>
+          <label> <input type="radio" name="cardType"> MasterCard </label>
+          <label> <input type="radio" name="cardType"> American Express </label>
+          </p>
+          <hr>
+          <p> Card number
+          <input type="text" name="cc1" maxlength="4" size="4em"> -
+          <input type="text" name="cc2" maxlength="4" size="4em"> -
+          <input type="text" name="cc3" maxlength="4" size="4em"> -
+          <input type="text" name="cc4" maxlength="4" size="4em">
+          </p>
+          <hr>
+          <p> Expiration:
+          Month (MM) <input type="text" name="month" maxlength="2" size="2em">
+          Year (YY) <input type="text" name="year" maxlength="2" size="2em">
+          </p>
+        </fieldset>
+
+        <p class="left"> Place Order <input id="place_order" type="submit"> </p>
+        <p class="right"> Reset fields <input id="restart" type="reset"> </p>
+      </form>
+      </div>
+
+
+</body>
+</html>

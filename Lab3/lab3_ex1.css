@@ -1,0 +1,19 @@
+#right {text-align: right;}
+
+a {background-color: black; color: white;
+font-style: monospace; font-size:10pt;
+padding: 5px;
+}
+
+#mid {margin: 2px; text-align: center}
+
+.wide {width: 240px;}
+
+.wide_black {width: 240px; background-color: black;
+padding: 5px; color: white;
+}
+
+.all {width: 250px; margin: auto; margin-top: 20px;
+border: 1px solid black;}
+
+input {margin: 2px;}
